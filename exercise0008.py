@@ -1,0 +1,5 @@
+anchura = int(input("Introduce la anchura: "))
+altura = int(input("Introduce la altura: "))
+perimetro = int((anchura * 2) + (altura * 2))
+area = int(anchura * altura)
+print("El área del rectángulo es", area, "y el perímetro es", perimetro)
